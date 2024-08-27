@@ -21,6 +21,24 @@
                 $result = "Erro: Divisao por zero!";
             }
             break;
+        case "RaizQuadrada":
+            $result = sqrt($v1);
+            break;
+        case "MudarValor":
+            $result = $v1 * (-1);
+            break;
+        case "sen":
+                $result = sin($v1);
+                break;
+        case "cos":
+            $result = cos($v1);
+            break;
+        case "tan":
+            $result = tan($v1);
+            break;
+        case "1\x":
+            $result = 1/$v1;
+            break;
     }
 
     echo "<h1>Resultado = $result </h1>";
